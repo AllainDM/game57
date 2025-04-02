@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7433513359377453944}
+  - component: {fileID: 7774885725812238733}
   m_Layer: 0
   m_Name: ExplosiveSpawner
   m_TagString: Untagged
@@ -31,3 +32,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7774885725812238733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747131710411057265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130b4786867c5a14994b6550d5a200ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 10
+  _ballAmount: 10
+  _delay: 1
+  _repeatRate: 3
+  _prefabBall: {fileID: 1123640107110863467, guid: debb9f1c6372cd5428e3e4560096b0e5,
+    type: 3}

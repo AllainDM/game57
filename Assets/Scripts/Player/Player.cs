@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[SelectionBase]
 public class Player : MonoBehaviour
 {
     [SerializeField] float _speed = 4.0f;
