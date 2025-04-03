@@ -3,6 +3,7 @@ using UnityEngine;
 public class ExplosiveBall : MonoBehaviour
 {
     [SerializeField] private float _duration = 10.0f;
+    //
 
     private float _currentTime; 
     
